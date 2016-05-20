@@ -1,0 +1,11 @@
+<library path="lib/libdefault_door_sim">
+
+  <class
+    name="alkimia_plugins/DefaultDoorSim"
+    type="alkimia_plugins::DefaultDoorSim"
+    base_class_type="alkimia_plugins::DoorSim">
+    <description>
+      A default robot simulation interface which constructs joint handles from an SDF/URDF.
+    </description>
+  </class>
+</library>
